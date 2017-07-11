@@ -33,6 +33,7 @@ NSString * const kSaveImageName = @"";
         
         _jotViewController = [JotViewController new];
         
+
         self.jotViewController.delegate = self;
         self.jotViewController.state = JotViewStateDrawing;
         self.jotViewController.textColor = [UIColor blackColor];

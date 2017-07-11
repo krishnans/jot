@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
+#import "JotDrawView.h"
 
 /**
  *  The possible states of the JotViewController
@@ -157,6 +158,7 @@ typedef NS_ENUM(NSUInteger, JotViewState){
  */
 @property (nonatomic, assign) BOOL clipBoundsToEditingInsets;
 
+@property (nonatomic, strong, readonly) JotDrawView *drawView;
 
 @property (nonatomic, strong, readonly) JotDrawingContainer *drawingContainer;
 

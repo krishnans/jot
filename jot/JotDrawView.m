@@ -19,7 +19,6 @@ CGFloat const kJotRelativeMinStrokeWidth = 0.4f;
 
 @property (nonatomic, strong) UIImage *cachedImage;
 
-@property (nonatomic, strong) NSMutableArray *pathsArray;
 
 @property (nonatomic, strong) JotTouchBezier *bezierPath;
 @property (nonatomic, strong) NSMutableArray *pointsArray;
